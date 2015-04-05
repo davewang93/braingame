@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+
+<html>
+
+    <head>
+        <title>Welcome to The BrainGame!</title>
+    </head>
+
+    <body>
+        <h1>Welcome to the BrainGame!</h1>
+        Where everyone is a neuroscientist! <strong>{{ boldmessage }}</strong><br />
+        <a href="/index/about/">About</a><br />
+        <img src="{% static "images/neuropia.jpg" %}" alt="The game should be here" />
+    </body>
+
+</html>
